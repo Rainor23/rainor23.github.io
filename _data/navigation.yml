@@ -1,0 +1,17 @@
+# main links
+main:
+  - title: "About"
+    url: /about/
+
+#sidebar links
+cat:
+  - title: "categories"
+    children:
+      - title: "Reverse Engineering"
+        url: "/reverse_engineering/"
+      - title: "Web Application"
+        url: "/web_application/"
+      - title: "Scripting"
+        url: "/scripting/"
+      - title: "Hack The Box"
+        url: "/hack_the_box/"
