@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://0.0.0.0:4000/cybersecurity/Users-are-dangerous/</loc>
+<lastmod>2020-08-24T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/reverse_engineering/Super-Crazy-Reversing/</loc>
+<lastmod>2020-08-24T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/juiceshop/owasp/JuiceBox-Level-1-Walkthrough/</loc>
+<lastmod>2020-09-06T00:00:00-05:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/reverse_engineering/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/about/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/hack_the_box/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/scripting/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/splash-page/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/web_application/</loc>
+</url>
+</urlset>

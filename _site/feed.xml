@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-12-02T08:28:28-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">RainerInfoSec</title><subtitle>Cyber Stuff.</subtitle><author><name>Rainer</name></author><entry><title type="html">JUICESHOP LEVEL 1</title><link href="http://0.0.0.0:4000/juiceshop/owasp/JuiceBox-Level-1-Walkthrough/" rel="alternate" type="text/html" title="JUICESHOP LEVEL 1" /><published>2020-09-06T00:00:00-05:00</published><updated>2020-09-06T00:00:00-05:00</updated><id>http://0.0.0.0:4000/juiceshop/owasp/JuiceBox-Level-1-Walkthrough</id><content type="html" xml:base="http://0.0.0.0:4000/juiceshop/owasp/JuiceBox-Level-1-Walkthrough/">&lt;p&gt;Here we will go through Juiceshop Level 1&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;level-1&quot;&gt;Level 1&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Challenge&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Description&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;u&gt;Bonus Payload&lt;/u&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Use the bonus payload &amp;lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&amp;amp;color=%23ff5500&amp;amp;auto_play=true&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&quot;&amp;gt;&amp;lt;/iframe&amp;gt; in the DOM XSS challenge.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;u&gt;Confidential Document&lt;/u&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Access a confidential document.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;u&gt;DOM XSS&lt;/u&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Perform a DOM XSS attack with &amp;lt;iframe src=&quot;javascript:alert(`xss`)&quot;&amp;gt;.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;u&gt;Error Handling&lt;/u&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Provoke an error that is neither very gracefully nor consistently handled.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;u&gt;Exposed Metrics&lt;/u&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Find the endpoint that serves usage data to be scraped by a popular monitoring system.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;u&gt;Missing Encoding&lt;/u&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Retrieve the photo of Bjoern’s cat in “melee combat-mode”.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;u&gt;Outdated Whitelist&lt;/u&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Let us redirect you to one of our crypto currency addresses which are not promoted any longer.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;u&gt;Privacy Policy&lt;/u&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Read our privacy policy&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;u&gt;Repetitive Registration&lt;/u&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Follow the DRY principle while registering a user.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;u&gt;Zero Stars&lt;/u&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Give a devastating zero-star feedback to the store.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name>Rainer</name></author><category term="Juiceshop" /><category term="OWASP" /><category term="Juiceshop" /><category term="OWASP" /><summary type="html">Here we will go through Juiceshop Level 1</summary></entry><entry><title type="html">SUPER REVERSE ENGINEERING</title><link href="http://0.0.0.0:4000/reverse_engineering/Super-Crazy-Reversing/" rel="alternate" type="text/html" title="SUPER REVERSE ENGINEERING" /><published>2020-08-24T00:00:00-05:00</published><updated>2020-08-24T00:00:00-05:00</updated><id>http://0.0.0.0:4000/reverse_engineering/Super-Crazy-Reversing</id><content type="html" xml:base="http://0.0.0.0:4000/reverse_engineering/Super-Crazy-Reversing/">&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;testing&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Rainer</name></author><category term="reverse_engineering" /><summary type="html">Users are at the forefront of most experiences when external users or customers interact with a company...</summary></entry><entry><title type="html">USERS ARE DANGEROUS</title><link href="http://0.0.0.0:4000/cybersecurity/Users-are-dangerous/" rel="alternate" type="text/html" title="USERS ARE DANGEROUS" /><published>2020-08-24T00:00:00-05:00</published><updated>2020-08-24T00:00:00-05:00</updated><id>http://0.0.0.0:4000/cybersecurity/Users-are-dangerous</id><content type="html" xml:base="http://0.0.0.0:4000/cybersecurity/Users-are-dangerous/">&lt;p&gt;Users are at the forefront of most experiences when external users or customers interact with a company. Ranging from customer services to IT technicians, users will be using either published applications or those created in house for tasks specific to the company. With users having access to systems, comes the risk of data loss, corruption or data transferring into the hands of unauthorised people.&lt;!--more--&gt;
+Any compromised data integrity will result in reputational and financial damage. With recent EU GDPR laws having been updated and enforced from  25th May 2018, companies can now get a fine of up to 4% of their worldwide annual turnover and a ban on data processing.  With such severe consequences, important processes must be in place within the company to mitigate risk and penalty upon breach.&lt;/p&gt;
+
+&lt;p&gt;IBM’s 2014 Cyber Security Intelligence Index stated that 95% of security breaches were caused by human error, with the highest contributing factor being malicious emails.
+There are many factors that can cause users to be the key to a security breach. With Cisco’s 2018 Annual Cybersecurity Report showing phishing the top entry point for a breach. A notable example of a phishing email attack was the 2015 Anthem data breach. It was believed to have started due to the stealing of “credentials of five different tech workers, possibly through some kind of “phishing” scheme” (Insurance Journal, 2015).
+Unfortunately, there are still many practices that users follow for ease of work, rather than the security of the company. Writing down or sharing passwords are prime examples of how users, seek the simplest way to work, without considering the implications and risks it involves. Due to the technical skills of most users, they are unable to fully understand the consequences of what these types of incidents can lead to. Other than financial and reputational damage, a breach and lead to the destruction of misuse of data. This In turn, without sufficient backups, could break the company and shut it down.
+Best practices to mitigate user risk.
+As with human error, expecting a 100% risk-free environment is nearly impossible to accomplish. Following industry best practices is key to mitigating potential dangers. Industry best practices will usually be set by the technology creator, for example, Microsoft and Active Directory or Cisco IOS.
+It is important to apply all updates to any technology used from these manufacturers, as they will be patching any undisclosed or public security concerns. Hackers will constantly be finding bugs and exploits within technology. Users will be the hackers gate into a computer system. This will work by users allowing them access, usually by accident malicious code, most commonly within social engineered emails.
+Parallel with patching via vendors, systems should also follow all configuration best practises recommended by the vendor. Vendors will have completed rigorous testing on their technology so are best accustomed to make the best decisions on how to securely use their systems. In regard to basic user configuration, in a Windows environment, Microsoft have best practices on how to use Active Directory and Group Policy.  Administrators are recommended basic steps such as password complexity and force password change every 90 days minimum. It will be important to only provide users with the lowest permissions they will need.
+User Training will make a big difference to a company’s workforce. Teaching users about basic cybersecurity, for example, not clicking on links within emails that you were not expecting. A good example of this training will be phishing test software such as Sophos. It allows an organised and controlled sending of customised phishing attacks on behalf of the company. This will allow tracking of users who have actioned the suspicious email with a click. Once a company has a list of these users, it can pinpoint training to those who are susceptible to phishing attacks. Alongside these tests, users should undertake training, normally with a compliance department or IT.
+User attacks can start from poor user management. It is vital to remove and disable all accounts once a user has left, even more importantly, if they were an administrator to any system or were able to log in remotely. Disgruntled users can seek to cause damage to a company due to spite.
+With most companies using remote workers, it’s crucial to ensure that the users can continue to work off-site in conjunction with secure data. Device encryption together with 2-factor authentication is the safest method of creating such an environment. This will allow all data to safe if the user loses who has their laptop stolen.
+Conclusion
+As much as users pose a threat to business, there are many ways to limit damage or prevent accidental damage to start with. With basic steps being taken by companies to ensure mitigation, as described by IBM’s 2014 Cyber Security Intelligence Index, only 5% of breaches would be successful.
+It is important to follow all steps ranging from patch management, configuration, user management, training, and encryption. Once all steps are firmly satisfied, a company should be safe from a breach resulting from a user. With staff turn around, there will always be a need to refresh these principles to ensure a continuously safe environment&lt;/p&gt;</content><author><name>Rainer</name></author><category term="Cybersecurity" /><category term="users" /><category term="dangerous" /><summary type="html">Users are at the forefront of most experiences when external users or customers interact with a company...</summary></entry></feed>
