@@ -2,12 +2,14 @@
 title: "USERS ARE DANGEROUS"
 excerpt: Users are at the forefront of most experiences when external users or customers interact with a company...
 categories:
-  - Cybersecurity
+  - misc
 tags:
   - users
   - dangerous
 read_time: true
 words_per_minute: 820
+header:
+      overlay_image: /assets/imgs/hacker3.jpg
 ---
 
 Users are at the forefront of most experiences when external users or customers interact with a company. Ranging from customer services to IT technicians, users will be using either published applications or those created in house for tasks specific to the company. With users having access to systems, comes the risk of data loss, corruption or data transferring into the hands of unauthorised people.<!--more-->

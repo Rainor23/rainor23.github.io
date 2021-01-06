@@ -2,7 +2,7 @@
 type: pages
 layout: archive
 permalink: /hack_the_box/
-title: "WEB APPLICATION"
+title: "Hack The Box Writeups"
 excerpt: "A list of all web application posts"
 author_profile: true
 classes: wide

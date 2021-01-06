@@ -2,7 +2,7 @@
 type: pages
 layout: archive
 permalink: /scripting/
-title: "WEB APPLICATION"
+title: "Scripting"
 excerpt: "A list of all web application posts"
 author_profile: true
 classes: wide

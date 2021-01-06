@@ -1,0 +1,60 @@
+I"B	<p>Here we will go through Juiceshop Level 1</p>
+
+<!--more-->
+<blockquote>
+  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+</blockquote>
+
+<h3 id="level-1">Level 1</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Challenge</th>
+      <th style="text-align: center">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><u>Bonus Payload</u></td>
+      <td style="text-align: center">Use the bonus payload &lt;iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;&lt;/iframe&gt; in the DOM XSS challenge.</td>
+    </tr>
+    <tr>
+      <td><u>Confidential Document</u></td>
+      <td style="text-align: center">Access a confidential document.</td>
+    </tr>
+    <tr>
+      <td><u>DOM XSS</u></td>
+      <td style="text-align: center">Perform a DOM XSS attack with &lt;iframe src="javascript:alert(`xss`)"&gt;.</td>
+    </tr>
+    <tr>
+      <td><u>Error Handling</u></td>
+      <td style="text-align: center">Provoke an error that is neither very gracefully nor consistently handled.</td>
+    </tr>
+    <tr>
+      <td><u>Exposed Metrics</u></td>
+      <td style="text-align: center">Find the endpoint that serves usage data to be scraped by a popular monitoring system.</td>
+    </tr>
+    <tr>
+      <td><u>Missing Encoding</u></td>
+      <td style="text-align: center">Retrieve the photo of Bjoern’s cat in “melee combat-mode”.</td>
+    </tr>
+    <tr>
+      <td><u>Outdated Whitelist</u></td>
+      <td style="text-align: center">Let us redirect you to one of our crypto currency addresses which are not promoted any longer.</td>
+    </tr>
+    <tr>
+      <td><u>Privacy Policy</u></td>
+      <td style="text-align: center">Read our privacy policy</td>
+    </tr>
+    <tr>
+      <td><u>Repetitive Registration</u></td>
+      <td style="text-align: center">Follow the DRY principle while registering a user.</td>
+    </tr>
+    <tr>
+      <td><u>Zero Stars</u></td>
+      <td style="text-align: center">Give a devastating zero-star feedback to the store.</td>
+    </tr>
+  </tbody>
+</table>
+:ET

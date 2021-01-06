@@ -5,6 +5,8 @@ categories:
   - reverse_engineering
 read_time: true
 words_per_minute: 820
+header:
+      overlay_image: /assets/imgs/hacker3.jpg
 ---
 
 

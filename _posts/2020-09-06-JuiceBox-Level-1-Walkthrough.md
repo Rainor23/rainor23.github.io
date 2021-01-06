@@ -3,10 +3,7 @@ title: "JUICESHOP LEVEL 1"
 excerpt_separator: "<!--more-->"
 categories:
   - Juiceshop
-  - OWASP
 tags:
-  - Juiceshop
-  - OWASP
 header:
       overlay_image: /assets/imgs/hacker3.jpg
 ---
