@@ -9,9 +9,10 @@ header:
       overlay_image: /assets/imgs/hacker3.jpg
 ---
 
-# Simeple CTF script
+# Simple CTF script
 
-*** What does it do? ***\n
+*** What does it do? ***
+
 This script will pull the site source code, look for any urls and comments, then parse them out.
 
 Updates to come:
