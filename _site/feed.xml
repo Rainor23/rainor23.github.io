@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-01-05T19:59:37-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">RainerInfoSec</title><subtitle>Cyber Stuff.</subtitle><author><name>Rainer</name></author><entry><title type="html">CTF Site Scanner</title><link href="http://0.0.0.0:4000/scripting/CTF-Site-Scanner/" rel="alternate" type="text/html" title="CTF Site Scanner" /><published>2021-01-01T00:00:00-06:00</published><updated>2021-01-01T00:00:00-06:00</updated><id>http://0.0.0.0:4000/scripting/CTF-Site-Scanner</id><content type="html" xml:base="http://0.0.0.0:4000/scripting/CTF-Site-Scanner/">&lt;h1 id=&quot;simeple-ctf-script&quot;&gt;Simeple CTF script&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-01-13T09:22:06-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">RainerInfoSec</title><subtitle>Cyber Stuff.</subtitle><author><name>Rainer</name></author><entry><title type="html">CTF Site Scanner</title><link href="http://0.0.0.0:4000/scripting/CTF-Site-Scanner/" rel="alternate" type="text/html" title="CTF Site Scanner" /><published>2021-01-01T00:00:00-06:00</published><updated>2021-01-01T00:00:00-06:00</updated><id>http://0.0.0.0:4000/scripting/CTF-Site-Scanner</id><content type="html" xml:base="http://0.0.0.0:4000/scripting/CTF-Site-Scanner/">&lt;h1 id=&quot;simple-ctf-script&quot;&gt;Simple CTF script&lt;/h1&gt;
 
-&lt;p&gt;&lt;em&gt;** What does it do? **&lt;/em&gt;
-This script will pull the site source code, look for any urls and comments, then parse them out.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;** What does it do? **&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This script will pull the site source code, look for any urls and comments, then parse them out.&lt;/p&gt;
 
 &lt;p&gt;Updates to come:&lt;/p&gt;
 &lt;ul&gt;
