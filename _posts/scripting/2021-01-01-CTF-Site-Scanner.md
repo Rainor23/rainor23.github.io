@@ -10,9 +10,9 @@ header:
 ---
 
 # Simple CTF script
+___
 
-*** What does it do? ***
-
+__What does it do?__
 This script will pull the site source code, look for any urls and comments, then parse them out.
 
 Updates to come:

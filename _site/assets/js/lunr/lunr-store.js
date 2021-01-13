@@ -18,7 +18,7 @@ var store = [{
         "teaser": null
       },{
         "title": "CTF Site Scanner",
-        "excerpt":"Simple CTF script ** What does it do? ** This script will pull the site source code, look for any urls and comments, then parse them out. Updates to come: Search for hidden html elements. Ability to search multiple urls and output them together in one output. import requests from...","categories": ["scripting"],
+        "excerpt":"Simple CTF script What does it do? This script will pull the site source code, look for any urls and comments, then parse them out. Updates to come: Search for hidden html elements. Ability to search multiple urls and output them together in one output. import requests from bs4 import...","categories": ["scripting"],
         "tags": [],
         "url": "http://0.0.0.0:4000/scripting/CTF-Site-Scanner/",
         "teaser": null
