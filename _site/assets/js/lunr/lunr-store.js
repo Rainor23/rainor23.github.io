@@ -12,7 +12,7 @@ var store = [{
         "teaser": null
       },{
         "title": "CTF Site Scanner (Python)",
-        "excerpt":"Simple CTF script What does it do? This script will pull the site source code, look for any urls and comments, then parse them out. Updates to come: Search for hidden html elements. Ability to search multiple urls and output them together in one output. import requests from bs4 import...","categories": ["scripting","python","CTF"],
+        "excerpt":"Simple CTF script You’re doing a CTF and your wordlist isn’t finding any directories… maybe they are using custom url’s on purpose so that the wordlist won’t work? Maybe they’ve hidden comments in the source code to point to a dev area? It can be annoying to search through, even...","categories": ["scripting","python","CTF"],
         "tags": [],
         "url": "http://0.0.0.0:4000/scripting/python/ctf/CTF-Site-Scanner/",
         "teaser": null

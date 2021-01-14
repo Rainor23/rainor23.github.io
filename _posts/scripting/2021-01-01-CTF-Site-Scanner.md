@@ -14,6 +14,10 @@ header:
 # Simple CTF script
 ___
 
+You're doing a CTF and your wordlist isn't finding any directories... maybe they are using custom url's on purpose so that the wordlist won't work? Maybe they've hidden comments in the source code to point to a dev area? It can be annoying to search through, even more so when there is a large page with a ton of source code!
+
+I created this script to look through html and find interesting elements, such as urls, comments and soon to be, hidden html elements. In scope of this project will be the ability for recursive searching using a word list.
+
 __What does it do?__
 This script will pull the site source code, look for any urls and comments, then parse them out.
 
