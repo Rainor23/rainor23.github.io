@@ -5,10 +5,6 @@
 <lastmod>2020-08-24T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/reverse_engineering/Super-Crazy-Reversing/</loc>
-<lastmod>2020-08-24T00:00:00-05:00</lastmod>
-</url>
-<url>
 <loc>http://0.0.0.0:4000/juiceshop/JuiceBox-Level-1-Walkthrough/</loc>
 <lastmod>2020-09-06T00:00:00-05:00</lastmod>
 </url>
@@ -21,6 +17,9 @@
 </url>
 <url>
 <loc>http://0.0.0.0:4000/encryption/</loc>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/research/</loc>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/reverse_engineering/</loc>

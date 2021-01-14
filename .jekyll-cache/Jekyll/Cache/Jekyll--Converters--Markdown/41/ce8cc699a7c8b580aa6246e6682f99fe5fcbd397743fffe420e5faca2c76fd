@@ -1,0 +1,25 @@
+I"+<p>Upcoming posts</p>
+
+<ol>
+  <li>DNS Recon</li>
+  <li>Amass</li>
+  <li>Assetfinder</li>
+  <li>httprobe</li>
+  <li>OWASP Top 10 -</li>
+  <li>Injection</li>
+  <li>Broken Authentication</li>
+  <li>Sensitive Data Exposure</li>
+  <li>XML External Entities (XXE)</li>
+  <li>Broken Access Control</li>
+  <li>Security Misconfiguration</li>
+  <li>Cross-Site Scripting (XSS)</li>
+  <li>Insecure Deserialisation</li>
+  <li>Using Components with Known Vulnerabilities</li>
+  <li>Insufficient Logging and Monitoring</li>
+</ol>
+
+<ul class="taxonomy__index">
+  
+</ul>
+
+:ET

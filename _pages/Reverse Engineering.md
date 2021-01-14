@@ -8,6 +8,17 @@ author_profile: true
 classes: wide
 ---
 
+Upcoming Posts -
+
+- Stack BOF
+- HEAP exploitation
+- ROP exploitation
+
+Using debuggers -
+- Using edb
+- Using gdb
+- Using Redare2
+
 <ul class="taxonomy__index">
   {% for post in site.categories.reverse_engineering %}
   {% for year in postsInYear %}
