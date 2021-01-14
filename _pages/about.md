@@ -9,6 +9,4 @@ author_profile: true
 classes: wide
 ---
 
-
-
-This is a test about me....
+Page still under construction :)

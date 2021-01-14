@@ -13,8 +13,11 @@
 <lastmod>2020-09-06T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://0.0.0.0:4000/scripting/CTF-Site-Scanner/</loc>
+<loc>http://0.0.0.0:4000/scripting/python/ctf/CTF-Site-Scanner/</loc>
 <lastmod>2021-01-01T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>http://0.0.0.0:4000/AD/</loc>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/encryption/</loc>

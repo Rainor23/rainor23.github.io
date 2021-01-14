@@ -1,12 +1,12 @@
 var store = [{
         "title": "USERS ARE DANGEROUS",
-        "excerpt":"Users are at the forefront of most experiences when external users or customers interact with a company. Ranging from customer services to IT technicians, users will be using either published applications or those created in house for tasks specific to the company. With users having access to systems, comes the...","categories": ["misc"],
+        "excerpt":"Users are dangerous Users are at the forefront of most experiences when external users or customers interact with a company. Ranging from customer services to IT technicians, users will be using either published applications or those created in house for tasks specific to the company. With users having access to...","categories": ["misc"],
         "tags": ["users","dangerous"],
         "url": "http://0.0.0.0:4000/misc/Users-are-dangerous/",
         "teaser": null
       },{
         "title": "SUPER REVERSE ENGINEERING",
-        "excerpt":" def print():   print(\"testing\")  if i in range(6)  ","categories": ["reverse_engineering"],
+        "excerpt":"Updates to come -   Stack BOF HEAP exploitation ROP exploitation  ","categories": ["reverse_engineering"],
         "tags": [],
         "url": "http://0.0.0.0:4000/reverse_engineering/Super-Crazy-Reversing/",
         "teaser": null
@@ -17,9 +17,9 @@ var store = [{
         "url": "http://0.0.0.0:4000/juiceshop/JuiceBox-Level-1-Walkthrough/",
         "teaser": null
       },{
-        "title": "CTF Site Scanner",
-        "excerpt":"Simple CTF script What does it do? This script will pull the site source code, look for any urls and comments, then parse them out. Updates to come: Search for hidden html elements. Ability to search multiple urls and output them together in one output. import requests from bs4 import...","categories": ["scripting"],
+        "title": "CTF Site Scanner (Python)",
+        "excerpt":"Simple CTF script What does it do? This script will pull the site source code, look for any urls and comments, then parse them out. Updates to come: Search for hidden html elements. Ability to search multiple urls and output them together in one output. import requests from bs4 import...","categories": ["scripting","python","CTF"],
         "tags": [],
-        "url": "http://0.0.0.0:4000/scripting/CTF-Site-Scanner/",
+        "url": "http://0.0.0.0:4000/scripting/python/ctf/CTF-Site-Scanner/",
         "teaser": null
       }]

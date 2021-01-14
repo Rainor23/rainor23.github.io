@@ -8,6 +8,24 @@ author_profile: true
 classes: wide
 ---
 
+Upcoming posts
+
+1. DNS Recon
+2. Amass
+3. Assetfinder
+4. httprobe
+5. OWASP Top 10 -
+  1. Injection
+  2. Broken Authentication
+  3. Sensitive Data Exposure
+  4. XML External Entities (XXE)
+  5. Broken Access Control
+  6. Security Misconfiguration
+  7. Cross-Site Scripting (XSS)
+  8. Insecure Deserialisation
+  9. Using Components with Known Vulnerabilities
+  10. Insufficient Logging and Monitoring
+
 <ul class="taxonomy__index">
   {% for post in site.categories.web_application %}
   {% for year in postsInYear %}

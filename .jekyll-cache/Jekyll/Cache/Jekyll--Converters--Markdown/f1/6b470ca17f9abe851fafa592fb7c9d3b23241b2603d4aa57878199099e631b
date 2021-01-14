@@ -1,7 +1,0 @@
-I"à
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">print</span><span class="p">():</span>
-  <span class="k">print</span><span class="p">(</span><span class="s">"testing"</span><span class="p">)</span>
-
-<span class="k">if</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span></code></pre></figure>
-
-:ET

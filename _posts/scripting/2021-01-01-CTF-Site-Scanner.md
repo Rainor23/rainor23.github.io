@@ -1,8 +1,10 @@
 ---
-title: "CTF Site Scanner"
+title: "CTF Site Scanner (Python)"
 excerpt: A simple script to grab all url's and comments from a source page.
 categories:
   - scripting
+  - python
+  - CTF
 read_time: true
 words_per_minute: 820
 header:

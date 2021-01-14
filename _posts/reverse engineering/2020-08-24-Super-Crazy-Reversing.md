@@ -10,11 +10,8 @@ header:
 ---
 
 
-{% highlight python %}
+Updates to come -
 
-def print():
-  print("testing")
-
-if i in range(6)
-
-{% endhighlight %}
+Stack BOF
+HEAP exploitation
+ROP exploitation

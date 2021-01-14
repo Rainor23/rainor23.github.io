@@ -15,3 +15,7 @@ cat:
         url: "/scripting/"
       - title: "Hack The Box"
         url: "/hack_the_box/"
+      - title: "Active Directory"
+        url: "/AD/"
+      - title: "Encryption"
+        url: "/encryption/"
