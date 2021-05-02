@@ -10,4 +10,3 @@ classes: wide
 ---
 
 Page still under construction :) Testing Cookie Dec
-<script id="CookieDeclaration" src="https://consent.cookiebot.com/5eb5ee69-30e0-4127-861e-329d31d5a60c/cd.js" type="text/javascript" async></script>
