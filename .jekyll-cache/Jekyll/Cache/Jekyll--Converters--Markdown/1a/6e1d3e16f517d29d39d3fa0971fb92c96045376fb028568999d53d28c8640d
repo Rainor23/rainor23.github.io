@@ -1,0 +1,9 @@
+I"l<h1 id="llmnr-poisoning-test">LLMNR Poisoning test</h1>
+
+<p>LLMNR - The link-local multicast name resolution. A protocol with a similar function as that of NetBIOS (Outdated) and generally, is used as a replacement. 
+LLMNR and NetBIOS allow name resolution for devices on the network, essentially - DNS type function, without needing DNS configuration. As LLMNR sends its requists via broadcast packets, it is possible to intercept them and perform a Man-in-the-Middle (MITM) attack.</p>
+
+<h2 id="example-attack">Example Attack:</h2>
+
+<p><img src="/assets/imgs/Posts/LLMNR/Responder.png" alt="image tooltip here" /></p>
+:ET

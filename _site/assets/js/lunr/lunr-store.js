@@ -16,4 +16,10 @@ var store = [{
         "tags": [],
         "url": "http://0.0.0.0:4000/scripting/python/ctf/CTF-Site-Scanner/",
         "teaser": null
+      },{
+        "title": "LLMNR Poisoning",
+        "excerpt":"LLMNR Poisoning LLMNR - The link-local multicast name resolution. A protocol with a similar function as that of NetBIOS (Outdated) and generally, is used as a replacement. LLMNR and NetBIOS allow name resolution for devices on the network, essentially - A DNS type function, without needing DNS configuration. As LLMNR...","categories": ["ActiveDirectory"],
+        "tags": [],
+        "url": "http://0.0.0.0:4000/activedirectory/LLMNR-Poisoning/",
+        "teaser": null
       }]

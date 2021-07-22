@@ -1,0 +1,75 @@
+I"0<p>Upcoming Posts -</p>
+
+<ul>
+  <li>Responder</li>
+  <li>LLMNR poisoning</li>
+  <li>SMB Relay</li>
+  <li>SMB Signing</li>
+  <li>LDAPS</li>
+  <li>PowerView</li>
+  <li>Bloodhound</li>
+  <li>Pass the hash</li>
+  <li>Cracking hashes</li>
+  <li>Token Impersonation</li>
+  <li>Kerberoasting</li>
+  <li>Group Policy</li>
+  <li>Mimikatz</li>
+  <li>Golden Ticket Attacks</li>
+  <li>Pivoting</li>
+</ul>
+
+<ul class="taxonomy__index">
+  
+  
+  
+</ul>
+
+<section id="2021" class="taxonomy__section">
+    <h2 class="archive__subtitle">2021</h2>
+    <div class="entries-list">
+      
+        
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/activedirectory/LLMNR-Poisoning/" rel="permalink">LLMNR Poisoning
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">An article to show LLNMR Poisoning
+</p>
+  </article>
+</div>
+
+      
+    </div>
+    <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+  </section>
+
+:ET

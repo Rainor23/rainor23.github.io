@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>JUICESHOP LEVEL 1 | RainerInfoSec</title>
-<meta name="description" content="Here we will go through Juiceshop Level 1">
+<!-- begin _includes/seo.html --><title>LLMNR Poisoning | RainerInfoSec</title>
+<meta name="description" content="An article to show LLNMR Poisoning">
 
 
   <meta name="author" content="Rainer">
@@ -22,11 +22,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_GB">
 <meta property="og:site_name" content="RainerInfoSec">
-<meta property="og:title" content="JUICESHOP LEVEL 1">
-<meta property="og:url" content="http://0.0.0.0:4000/juiceshop/JuiceBox-Level-1-Walkthrough/">
+<meta property="og:title" content="LLMNR Poisoning">
+<meta property="og:url" content="http://0.0.0.0:4000/activedirectory/LLMNR-Poisoning/">
 
 
-  <meta property="og:description" content="Here we will go through Juiceshop Level 1">
+  <meta property="og:description" content="An article to show LLNMR Poisoning">
 
 
 
@@ -36,7 +36,7 @@
 
 
 
-  <meta property="article:published_time" content="2020-09-06T00:00:00-05:00">
+  <meta property="article:published_time" content="2021-07-21T00:00:00-05:00">
 
 
 
@@ -47,7 +47,7 @@
   
 
 
-<link rel="canonical" href="http://0.0.0.0:4000/juiceshop/JuiceBox-Level-1-Walkthrough/">
+<link rel="canonical" href="http://0.0.0.0:4000/activedirectory/LLMNR-Poisoning/">
 
 
 
@@ -166,7 +166,7 @@
   
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
-        JUICESHOP LEVEL 1
+        LLMNR Poisoning
 
       </h1>
       
@@ -183,7 +183,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          4 minute read
         
       </span>
     
@@ -371,9 +371,9 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="JUICESHOP LEVEL 1">
-    <meta itemprop="description" content="Here we will go through Juiceshop Level 1">
-    <meta itemprop="datePublished" content="2020-09-06T00:00:00-05:00">
+    <meta itemprop="headline" content="LLMNR Poisoning">
+    <meta itemprop="description" content="An article to show LLNMR Poisoning">
+    <meta itemprop="datePublished" content="2021-07-21T00:00:00-05:00">
     
 
     <div class="page__inner-wrap">
@@ -381,65 +381,57 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>Here we will go through Juiceshop Level 1</p>
+        <h1 id="llmnr-poisoning">LLMNR Poisoning</h1>
 
-<!--more-->
-<blockquote>
-  <p>Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-</blockquote>
+<p>LLMNR - The link-local multicast name resolution. A protocol with a similar function as that of NetBIOS (Outdated) and generally, is used as a replacement.<br />
+LLMNR and NetBIOS allow name resolution for devices on the network, essentially - A DNS type function, without needing DNS configuration. As LLMNR sends its requests via broadcast packets, it is possible to intercept them and perform a Man-in-the-Middle (MITM) attack.</p>
 
-<h3 id="level-1">Level 1</h3>
+<h2 id="example-attack">Example Attack:</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th>Challenge</th>
-      <th style="text-align: center">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><u>Bonus Payload</u></td>
-      <td style="text-align: center">Use the bonus payload &lt;iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"&gt;&lt;/iframe&gt; in the DOM XSS challenge.</td>
-    </tr>
-    <tr>
-      <td><u>Confidential Document</u></td>
-      <td style="text-align: center">Access a confidential document.</td>
-    </tr>
-    <tr>
-      <td><u>DOM XSS</u></td>
-      <td style="text-align: center">Perform a DOM XSS attack with &lt;iframe src="javascript:alert(`xss`)"&gt;.</td>
-    </tr>
-    <tr>
-      <td><u>Error Handling</u></td>
-      <td style="text-align: center">Provoke an error that is neither very gracefully nor consistently handled.</td>
-    </tr>
-    <tr>
-      <td><u>Exposed Metrics</u></td>
-      <td style="text-align: center">Find the endpoint that serves usage data to be scraped by a popular monitoring system.</td>
-    </tr>
-    <tr>
-      <td><u>Missing Encoding</u></td>
-      <td style="text-align: center">Retrieve the photo of Bjoern’s cat in “melee combat-mode”.</td>
-    </tr>
-    <tr>
-      <td><u>Outdated Whitelist</u></td>
-      <td style="text-align: center">Let us redirect you to one of our crypto currency addresses which are not promoted any longer.</td>
-    </tr>
-    <tr>
-      <td><u>Privacy Policy</u></td>
-      <td style="text-align: center">Read our privacy policy</td>
-    </tr>
-    <tr>
-      <td><u>Repetitive Registration</u></td>
-      <td style="text-align: center">Follow the DRY principle while registering a user.</td>
-    </tr>
-    <tr>
-      <td><u>Zero Stars</u></td>
-      <td style="text-align: center">Give a devastating zero-star feedback to the store.</td>
-    </tr>
-  </tbody>
-</table>
+<p>First things first a lab is required for the example attack. For the example attack below the following config was used:</p>
+
+<p><strong>Machines</strong></p>
+<ul>
+  <li>A Domain Controller running active directory.</li>
+  <li>A Windows 10 (Education) workstation added to the domain network.</li>
+  <li>Parrot OS machine, not added to the domain, however, still on the same network.</li>
+</ul>
+
+<p><strong>Tools</strong></p>
+<ul>
+  <li>Responder</li>
+  <li>Hashcat</li>
+</ul>
+
+<p><strong>How the attack works</strong></p>
+<ul>
+  <li>Victim user will try to access something like a drive, which is spelt in correctly or not resolvable via DNS.</li>
+  <li>Responder will act as a DNS server “knowing” where this drive is.</li>
+  <li>Victim sends over NTLMv2 username and password hash.</li>
+  <li>Password is cracked with Hashcat.</li>
+</ul>
+
+<p>Firstly, start Responder. Keep it running until traffic is received.</p>
+
+<p>For this attack the options -rdw and -v are used.</p>
+<ul>
+  <li>r = Enables Responder to answer NetBIOS wredir queries.</li>
+  <li>d = Enables Responder to answer NetBIOS domain suffix queries.</li>
+  <li>w = Start the WPAD server.</li>
+  <li>v = Verbose, so that captures can be handled as they come in.</li>
+</ul>
+
+<p><img src="/assets/imgs/Posts/LLMNR/Responder.png" alt="Responder" /></p>
+
+<p>The user victim mistakenly tries to connect to the network drive “marketig”. This causes LLMNR to broadcast packets to the entire network to see if there is any machine that knows the location of this drive.
+<img src="/assets/imgs/Posts/LLMNR/Responder_Catch.png" alt="Responder Catch" /></p>
+
+<p>Looking at the NTLMv2 hash, it is possible to see its format - Username::Domain:Password-Hash. Knowing that the hash is NTLMv2, cracking the hash is an option. By cracking the hash, it is possible to open a door into the network. Getting a user and their password allows for a potential pivot in the network.</p>
+
+<p>Using Hashcat, it is possible to crack the password using the module 5600.
+<img src="/assets/imgs/Posts/LLMNR/Hashcat.png" alt="Responder Catch" /></p>
+
+<p>And behold… the password of Password123 has been uncovered.</p>
 
         
       </section>
@@ -462,14 +454,14 @@
     
       
       
-      <a href="/categories/#juiceshop" class="page__taxonomy-item" rel="tag">Juiceshop</a>
+      <a href="/categories/#activedirectory" class="page__taxonomy-item" rel="tag">ActiveDirectory</a>
     
     </span>
   </p>
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-09-06T00:00:00-05:00">September 6, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-07-21T00:00:00-05:00">July 21, 2021</time></p>
 
 
       </footer>
@@ -479,23 +471,22 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=JUICESHOP+LEVEL+1%20http%3A%2F%2F0.0.0.0%3A4000%2Fjuiceshop%2FJuiceBox-Level-1-Walkthrough%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=LLMNR+Poisoning%20http%3A%2F%2F0.0.0.0%3A4000%2Factivedirectory%2FLLMNR-Poisoning%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2Fjuiceshop%2FJuiceBox-Level-1-Walkthrough%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2Factivedirectory%2FLLMNR-Poisoning%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2Fjuiceshop%2FJuiceBox-Level-1-Walkthrough%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2Factivedirectory%2FLLMNR-Poisoning%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/misc/Users-are-dangerous/" class="pagination--pager" title="USERS ARE DANGEROUS
+      <a href="/scripting/python/ctf/CTF-Site-Scanner/" class="pagination--pager" title="CTF Site Scanner (Python)
 ">Previous</a>
     
     
-      <a href="/scripting/python/ctf/CTF-Site-Scanner/" class="pagination--pager" title="CTF Site Scanner (Python)
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -509,46 +500,6 @@
     <div class="page__related">
       <h4 class="page__related-title">You may also enjoy</h4>
       <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/activedirectory/LLMNR-Poisoning/" rel="permalink">LLMNR Poisoning
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          5 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">An article to show LLNMR Poisoning
-</p>
-  </article>
-</div>
-
         
           
 
@@ -585,6 +536,47 @@
 
 
     <p class="archive__item-excerpt" itemprop="description">A simple script to grab all url’s and comments from a source page.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/juiceshop/JuiceBox-Level-1-Walkthrough/" rel="permalink">JUICESHOP LEVEL 1
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Here we will go through Juiceshop Level 1
+
 </p>
   </article>
 </div>

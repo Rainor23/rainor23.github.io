@@ -7,7 +7,7 @@ tags:
   - users
   - dangerous
 read_time: true
-words_per_minute: 820
+words_per_minute: 300
 header:
       overlay_image: /assets/imgs/hacker3.jpg
 ---

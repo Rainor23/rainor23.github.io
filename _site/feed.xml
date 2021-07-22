@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-01-14T06:44:28-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">RainerInfoSec</title><subtitle>Cyber Stuff.</subtitle><author><name>Rainer</name></author><entry><title type="html">CTF Site Scanner (Python)</title><link href="http://0.0.0.0:4000/scripting/python/ctf/CTF-Site-Scanner/" rel="alternate" type="text/html" title="CTF Site Scanner (Python)" /><published>2021-01-01T00:00:00-06:00</published><updated>2021-01-01T00:00:00-06:00</updated><id>http://0.0.0.0:4000/scripting/python/ctf/CTF-Site-Scanner</id><content type="html" xml:base="http://0.0.0.0:4000/scripting/python/ctf/CTF-Site-Scanner/">&lt;h1 id=&quot;simple-ctf-script&quot;&gt;Simple CTF script&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-07-21T20:00:56-05:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">RainerInfoSec</title><subtitle>Cyber Stuff.</subtitle><author><name>Rainer</name></author><entry><title type="html">LLMNR Poisoning</title><link href="http://0.0.0.0:4000/activedirectory/LLMNR-Poisoning/" rel="alternate" type="text/html" title="LLMNR Poisoning" /><published>2021-07-21T00:00:00-05:00</published><updated>2021-07-21T00:00:00-05:00</updated><id>http://0.0.0.0:4000/activedirectory/LLMNR-Poisoning</id><content type="html" xml:base="http://0.0.0.0:4000/activedirectory/LLMNR-Poisoning/">&lt;h1 id=&quot;llmnr-poisoning&quot;&gt;LLMNR Poisoning&lt;/h1&gt;
+
+&lt;p&gt;LLMNR - The link-local multicast name resolution. A protocol with a similar function as that of NetBIOS (Outdated) and generally, is used as a replacement.&lt;br /&gt;
+LLMNR and NetBIOS allow name resolution for devices on the network, essentially - A DNS type function, without needing DNS configuration. As LLMNR sends its requests via broadcast packets, it is possible to intercept them and perform a Man-in-the-Middle (MITM) attack.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-attack&quot;&gt;Example Attack:&lt;/h2&gt;
+
+&lt;p&gt;First things first a lab is required for the example attack. For the example attack below the following config was used:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Machines&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A Domain Controller running active directory.&lt;/li&gt;
+  &lt;li&gt;A Windows 10 (Education) workstation added to the domain network.&lt;/li&gt;
+  &lt;li&gt;Parrot OS machine, not added to the domain, however, still on the same network.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Responder&lt;/li&gt;
+  &lt;li&gt;Hashcat&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;How the attack works&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Victim user will try to access something like a drive, which is spelt in correctly or not resolvable via DNS.&lt;/li&gt;
+  &lt;li&gt;Responder will act as a DNS server “knowing” where this drive is.&lt;/li&gt;
+  &lt;li&gt;Victim sends over NTLMv2 username and password hash.&lt;/li&gt;
+  &lt;li&gt;Password is cracked with Hashcat.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Firstly, start Responder. Keep it running until traffic is received.&lt;/p&gt;
+
+&lt;p&gt;For this attack the options -rdw and -v are used.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;r = Enables Responder to answer NetBIOS wredir queries.&lt;/li&gt;
+  &lt;li&gt;d = Enables Responder to answer NetBIOS domain suffix queries.&lt;/li&gt;
+  &lt;li&gt;w = Start the WPAD server.&lt;/li&gt;
+  &lt;li&gt;v = Verbose, so that captures can be handled as they come in.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/imgs/Posts/LLMNR/Responder.png&quot; alt=&quot;Responder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The user victim mistakenly tries to connect to the network drive “marketig”. This causes LLMNR to broadcast packets to the entire network to see if there is any machine that knows the location of this drive.
+&lt;img src=&quot;/assets/imgs/Posts/LLMNR/Responder_Catch.png&quot; alt=&quot;Responder Catch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Looking at the NTLMv2 hash, it is possible to see its format - Username::Domain:Password-Hash. Knowing that the hash is NTLMv2, cracking the hash is an option. By cracking the hash, it is possible to open a door into the network. Getting a user and their password allows for a potential pivot in the network.&lt;/p&gt;
+
+&lt;p&gt;Using Hashcat, it is possible to crack the password using the module 5600.
+&lt;img src=&quot;/assets/imgs/Posts/LLMNR/Hashcat.png&quot; alt=&quot;Responder Catch&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And behold… the password of Password123 has been uncovered.&lt;/p&gt;</content><author><name>Rainer</name></author><category term="ActiveDirectory" /><summary type="html">An article to show LLNMR Poisoning</summary></entry><entry><title type="html">CTF Site Scanner (Python)</title><link href="http://0.0.0.0:4000/scripting/python/ctf/CTF-Site-Scanner/" rel="alternate" type="text/html" title="CTF Site Scanner (Python)" /><published>2021-01-01T00:00:00-06:00</published><updated>2021-01-01T00:00:00-06:00</updated><id>http://0.0.0.0:4000/scripting/python/ctf/CTF-Site-Scanner</id><content type="html" xml:base="http://0.0.0.0:4000/scripting/python/ctf/CTF-Site-Scanner/">&lt;h1 id=&quot;simple-ctf-script&quot;&gt;Simple CTF script&lt;/h1&gt;
 &lt;hr /&gt;
 
 &lt;p&gt;You’re doing a CTF and your wordlist isn’t finding any directories… maybe they are using custom url’s on purpose so that the wordlist won’t work? Maybe they’ve hidden comments in the source code to point to a dev area? It can be annoying to search through, even more so when there is a large page with a ton of source code!&lt;/p&gt;

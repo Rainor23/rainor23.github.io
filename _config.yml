@@ -95,11 +95,11 @@ analytics:
 author:
   name             : "Rainer"
   avatar           : assets/imgs/me.jpg
-  bio              : "After previously working in IT / infrastructure support, I am currently studying Cyber Security & Computer Forensics at Kingston University.
+  bio              : "After previously working in IT / infrastructure support, I graduated with First Class (A) in Cyber Security & Computer Forensics at Kingston University.
 With a wide scope of knowledge, I am very keen to prove myself within the Cyber Security field.\n
 \n
 With anyone familiar with the pentesting site Hack The Box, my profile can be seen here https://www.hackthebox.eu/profile/79594 \n"
-  location         : "UK / Norway"
+  location         : "Norway"
   email            :
   links:
     - label: "Email"
