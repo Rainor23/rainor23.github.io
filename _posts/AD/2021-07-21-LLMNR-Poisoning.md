@@ -46,11 +46,13 @@ For this attack the options -rdw and -v are used.
 ![Responder](/assets/imgs/Posts/LLMNR/Responder.png)
 
 The user victim mistakenly tries to connect to the network drive "marketig". This causes LLMNR to broadcast packets to the entire network to see if there is any machine that knows the location of this drive.
+
 ![Responder Catch](/assets/imgs/Posts/LLMNR/Responder_Catch.png)
 
 Looking at the NTLMv2 hash, it is possible to see its format - Username::Domain:Password-Hash. Knowing that the hash is NTLMv2, cracking the hash is an option. By cracking the hash, it is possible to open a door into the network. Getting a user and their password allows for a potential pivot in the network.
 
 Using Hashcat, it is possible to crack the password using the module 5600.
+
 ![Responder Catch](/assets/imgs/Posts/LLMNR/Hashcat.png)
 
 And behold... the password of Password123 has been uncovered.
